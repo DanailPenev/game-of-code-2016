@@ -1,176 +1,163 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Shower Presentation Engine</title>
+	<title>SpotMe Mobile App</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=792, user-scalable=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
 </head>
-<body class="list">
+<body class="shower list" style="background-color:#e8d1a4">
 	<header class="caption">
-		<h1>Shower Presentation Engine</h1>
-		<p>Yours Truly, Famous Inc.</p>
+		<h1>SpotMe Mobile App</h1>
+		<p>Team Aubergine for Game of Code 2016</p>
 	</header>
-	<section class="slide cover" id="Cover"><div>
-		<h2>Shower Presentation Engine</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
-		<img src="pictures/cover.jpg" alt="">
-		<!--
-			To apply styles to the certain slides
-			set slide ID to get needed elements
-			-->
+	<style>
+	.slide.white {
+		background-color: #333;
+		}
+		.slide.white h2{
+			color:#fff;
+			font-size: 45px;
+		}
+		.slide.white li{
+			font-size:30px;
+			color:#e05151;
+			font-style:bold;
+		}
+		.slide.white blockquote{
+			color:#fff;
+			font-size:32px;
+		}
+		.slide.white figcaption{
+			color:#e05151;
+			font-size:30px;
+	}
+	</style>
+	<section class="slide white" id="cover">
+		<h2><center>SpotMe</center></h2>
+		<h3><center>Team Aubergine</center></h3>
 		<style>
-			#Cover h2 {
-				margin:30px 0 0;
-				color:#FFF;
-				text-align:center;
-				font-size:70px;
+			#cover h2 {
+				font-size:100px;
+				color:#fff;
 				}
-			#Cover p {
-				margin:10px 0 0;
-				text-align:center;
-				color:#FFF;
+
+			#cover h3 {
+				font-size:60px;
+				color:#e05151;
 				font-style:italic;
-				font-size:20px;
 				}
-				#Cover p a {
-					color:#FFF;
-					}
-		</style>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Shower Key Features</h2>
-		<ol>
-			<li>Built on HTML, CSS and vanilla JavaScript</li>
-			<li>All modern browsers are supported</li>
-			<li>Slide themes are separated from engine</li>
-			<li>Fully keyboard accessible</li>
-			<li>Printable to PDF</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Plain Text on Your Slides</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur <a href="#4">adipisicing</a> elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <em>quis nostrud</em> exercitation ullamco laboris <strong>nisi ut aliquip</strong> ex ea commodo consequat. Duis aute irure <i>dolor</i> in reprehenderit in voluptate velit esse cillum <b>dolore</b> eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <code>&lt;culpa&gt;</code> qui officia deserunt mollit anim id est laborum.</p>
-	</div></section>
-	<section class="slide"><div>
-		<h2>All Kind of Lists</h2>
-		<ol>
-			<li>Simple lists are marked with bullets</li>
-			<li>Ordered lists begin with a number</li>
-			<li>You can even nest lists one inside another
-				<ul>
-					<li>Or mix their types</li>
-					<li>But do not go too far</li>
-					<li>Otherwise audience will be bored</li>
-				</ul>
-			</li>
-			<li>Look, seven rows exactly!</li>
-		</ol>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Serious Citations</h2>
+		</style>	
+	</section>
+	<section class="slide white">
 		<figure>
 			<blockquote>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-			</blockquote>
-			<figcaption>Marcus Tullius Cicero</figcaption>
+		<p>Spot [spɒt]  
+		verb. To watch out or assist someone that is exercising <br></p>
+	</blockquote>
+		<figcaption>Urban Dictionary</figcaption></figure>
+
+		<figure class="next"><blockquote>
+		<p>
+		Spot [spɒt]
+		verb. To follow someone in the superb SpotMe app <br></p></blockquote>
+		<figcaption>Team Aubergine</figcaption>
+		
 		</figure>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Code Samples</h2>
-		<pre>
-			<code>&lt;!DOCTYPE html&gt;</code>
-			<code>&lt;html lang="en"&gt;</code>
-			<code><mark>&lt;head&gt;</mark> <mark class="comment">&lt;!--Comment--&gt;</mark></code>
-			<code>    &lt;title&gt;Shower&lt;/title&gt;</code>
-			<code>    &lt;meta charset="<mark class="important">UTF-8</mark>"&gt;</code>
-			<code>    &lt;link rel="stylesheet" href="screen.css"&gt;</code>
-			<code><mark>&lt;/head&gt;</mark></code>
-		</pre>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Even Tables</h2>
-		<table>
-		<tr>
-			<th scope="col">Locavore</th>
-			<th>Umami</th>
-			<th>Helvetica</th>
-			<th>Vegan</th>
-		</tr>
-		<tr>
-			<th scope="row">Fingerstache</th>
-			<td>Kale</td>
-			<td>Chips</td>
-			<td>Keytar</td>
-		</tr>
-		<tr>
-			<th scope="row">Sriracha</th>
-			<td>Gluten-free</td>
-			<td>Ennui</td>
-			<td>Keffiyeh</td>
-		</tr>
-		<tr>
-			<th scope="row">Thundercats</th>
-			<td>Jean</td>
-			<td>Shorts</td>
-			<td>Biodiesel</td>
-		</tr>
-		<tr>
-			<th scope="row">Terry</th>
-			<td>Richardson</td>
-			<td>Swag</td>
-			<td>Blog</td>
-		</tr>
-		</table>
-		<p>It’s good to have information organized.</p>
-	</div></section>
-	<section class="slide cover" id="Picture"><div>
-		<h2>Pictures</h2>
-		<img src="pictures/picture.jpg" alt="">
+	</section>
+	<section class="slide white">
+		<h2>What is SpotMe?</h2>
+		<ul>
+			<li>Social media app</li>
+			<li>Follow the workout of others by spotting them</li>
+			<li>Share your own daily fitness routine</li>
+			<li>Learn from the people you spot</li>
+			<li>Teach the people who spot you</li>
+		</ul>
+	</section>
+	<section class="slide white" id="persona" >
+		<img src="pictures/persona.jpg" alt="" style = "float:left; padding-bottom:10px; padding-right:30px">
+		<h2>Persona: Jack WIlliams</h2>
+        <h3 style="margin-top:-40px;">“I’ve always dreamt of being like Arnold.”</h3>
+		<ul>
+			<li>Jack has a very busy lifestyle and little prior gym practice.</li>
+			<li>He can look up exercises online but learning from other fitness enthusiasts and their experience is much more trustworthy.</li>
+			<li>One of his more advanced gym going friends, Bill, advised Jack to try out SpotMe as by using it he can see Bill’s schedule, routines, as well as various photos and videos of Bill doing the exercises properly.</li>
+			<li>By spotting each other, Jack and Bill can keep up to date with one another’s progress, as well as with other people who like to work out.</li>
+		</ul>
 		<style>
-			#Picture h2 {
-				color:#FFF;
-				}
+			#persona li{
+				line-height: 100%;
+				font-size:24px;
+				margin-bottom:10px;
+			}
 		</style>
-	</div></section>
-	<section class="slide shout"><div>
-		<h2>You can even shout this way</h2>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Inner Navigation</h2>
+	</section>
+	<section class="slide white" id="targetAudience">
+		<h2>Target audience</h2>
+		<ul>
+			<li>People who want to be <b>fit</b> and <b>healthy</b></li>
+			<li>Interested in <b>learning</b> </li>
+			<li>Interested in <b>teaching</b></li>
+			<li>Need <b>motivation</b></li>
+		</ul>
+		<style>
+			#targetAudience li {
+				font-size:36px;
+			}
+			#targetAudience h2 {
+				font-size:60px;
+			}
+		</style>
+	</section>
+	<section class="slide white">
+		<h2 class="shout shrink">What better way to learn than from the experience of others?</h2>
+		</section>
+	<section class="slide white">
+		<h2>How?</h2>
+		<ul>
+			<li>Share different type of content such as photos and videos </li>
+			<li>Share workout routines and personal diet</li>
+			<li>Browse the content shared by the people you spot</li>
+			<li>Show your admiration to a post by giving it a biceps</li>
+			<li>The more biceps a post has the hotter it is</li>
+			<li>Search engine that allows you to search through type of exercise, diet, etc</li>
+		</ul>
+	</section>
+	<section class="slide white" id="picture">
+		<h2>Prototype</h2>
+		<img src="pictures/prototype.png" alt="" class="cover">
+	</section>
+	<section class="slide white">
+		<h2>Algorithm for success:</h2>
 		<ol>
-			<li>Lets you reveal list items one by one</li>
-			<li class="next">To keep some key points</li>
-			<li class="next">In secret from audience</li>
-			<li class="next">But it will work only once</li>
-			<li class="next">Nobody wants to see the same joke twice</li>
+			<li class="next">Lots of people interested in a particular subject in one place</li>
+			<li class="next">Target audience</li>
+			<li class="next">Targeted ads</li>
+			<li class="next">???</li>
+			<li class="next">Profit $$$</li>
 		</ol>
-	</div></section>
-	<section class="slide shout" id="SeeMore"><div>
-		<h2><img src="pictures/logo.svg" alt=""> <a href="https://github.com/shower/shower">See more on GitHub</a></h2>
-		<style>
-			#Picture h2 {
-				color:#FFF;
-				}
-			#SeeMore h2 {
-				font-size:100px
-				}
-			#SeeMore img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
-	</div></section>
-	<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>
+	</section>
+	<section class="slide white">
+		<h2>Business Model (more in-depth)</h2>
+		<ul>
+			<li>Advertise products to the people who are likely to be interested in them (i.e. someone wanting to bulk up won’t see an ad about weight losing products)</li>
+			<li>Non intrusive, targeted adverts increase the chance of purchase</li>
+			<li>Business model already utilised and proved successful by lots of companies (Instagram, Facebook)</li>
+		</ul>
+	</section>
+	
+	<p class="badge">
+		<a href="https://github.com/DanailPenev/game-of-code-2016">Winners</a>
+	</p>
 	<!--
 		To hide progress bar from entire presentation
 		just remove “progress” element.
 		-->
-	<div class="progress"><div></div></div>
+	<div class="progress"></div>
 	<script src="shower/shower.min.js"></script>
-	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
+	<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
 	<!-- Photos by John Carey, fiftyfootshadows.net -->
 </body>
 </html>
